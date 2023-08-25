@@ -1,0 +1,110 @@
+html {
+  background-color: #f1f1f1;
+  font-size: 20px;
+}
+
+.header {
+  text-align: center;
+}
+.positive-section {
+  text-align: center;
+  margin-top: 5rem;
+}
+.negative-section {
+  text-align: center;
+  margin-top: 5rem;
+}
+.starter-section {
+  text-align: center;
+  margin-top: 5rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card {
+  width: 300px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-content h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.card-content p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+@media (max-width: 480px) {
+  /* CSS rules for mobile phones in portrait orientation */
+  .card-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS rules for mobile phones in landscape orientation */
+  .card-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for tablets */
+  .card-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  /* CSS rules for desktops and laptops */
+}
+@media (min-width: 1281px) {
+  /* CSS rules for large screens */
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  /* Resetting default styles */
+  background: none;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: normal;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: none;
+  text-transform: none;
+  white-space: normal;
+}
+
+/* Additional styles if needed */
+button {
+  /* Add your own styles here */
+}
