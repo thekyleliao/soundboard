@@ -1,6 +1,13 @@
 html {
-  background-color: #f1f1f1;
+  background-color: rgb(69, 255, 202);
+  color: rgb(214, 123, 255);
   font-size: 20px;
+  border: 20px solid rgb(255, 182, 217, 0.8);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-image: url("clown.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .header {
@@ -28,7 +35,7 @@ html {
 
 .card {
   width: 300px;
-  background-color: #f1f1f1;
+  background-color: #feffac;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
